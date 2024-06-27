@@ -20,4 +20,23 @@ console.log(boolean)// gives true output
 let a = 33
 let string = String(a)
 console.log(string)//output 33
-console.log(typeof string)
+console.log(typeof string)//output string only looks like a number but type is string only
+
+
+
+//****************************Operations**************************//
+let d = 3
+let negative = -d
+console.log(negative)//negative output
+
+
+let str1 = "hello"
+let str2 = " muskaan"
+
+let str3 = str1+str2 //only add
+console.log(str3)
+//if strig first everything will be converted into string log("1"+2) gives output 12 but log(1+2+"2") give output 32
+let num1,num2,num3
+num1=num2=num3=2+2
+
+//see prefix and postfix once from blue di
