@@ -15,4 +15,6 @@ let isloggedin= false
 //symbol mostly used in react->used to fined uniqueness
 //object
 
-console.log(typeof "muskaan");
+console.log(typeof "muskaan");//to check datatype
+//datatypes of null is an object
+//typeof undefined is undefined only
