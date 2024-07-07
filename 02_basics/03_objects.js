@@ -49,3 +49,27 @@ console.log(Object.entries(tinder))//output [key:value]
 console.log(user.hasOwnProperty('isloggedin'))
 
 
+//objects destructure
+
+const course  ={
+    coursename:"js",
+    price:9999,
+    instructor:"musk"
+}
+
+course.instructor
+
+const{instructor}=course//yhis is object destructure, dont have to write console many times
+console.log(instructor)
+
+
+
+//api returns value in json format
+
+{
+   " name":"musk", //json here key is of type string
+    "coursename":"js",
+    "price":"free"
+}
+
+///api also come in the format of json  as array
