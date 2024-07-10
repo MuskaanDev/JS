@@ -67,3 +67,51 @@ function loginmsgg(username="musk"){
     
     }
 }
+
+
+//shopping cart
+//we dont know how many items user will add or how many arguments will we get
+
+
+function calculateprice(...num1){//rest operator
+return num1
+}
+
+console.log(calculateprice(200,400,500))//prints an array
+
+function calculateprice(val1,val2,...num1){
+    return num1
+    }
+    
+    console.log(calculateprice(200,400,500))//output 500 because val1 consumed by 200 and val2 by 400
+
+
+    //to pass objects in a function
+    const user ={
+        username:"hitesh",
+        price:199
+    }
+
+    function handleobject(anyobject){
+console.log(`Username is ${anyobject.username} and price is ${anyobject.price} `)
+    }
+
+    //another way
+    handleobject({
+        username:"sam",
+        price:399//direct pass an object
+    })
+
+    //pass an array in a function
+
+    const array=[200,300,400,500]
+
+    function returnvalue(getarray){
+        return getarray[1]
+    }
+
+    console.log(returnvalue(mynewarray))
+
+    //another way
+
+    console.log(returnvalue([200,300,400,500]))//direct way
